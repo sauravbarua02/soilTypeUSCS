@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Soil Classification Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="background">
+  <div class="container">
+    <div class="screen">
+      <div class="screen-body">
+        <div class="screen-body-item left">
+          <div class="app-title">
+            <div class="animated infinite pulse">
+              Soil <br> Classification <br> Calculator (USCS)
+            </div>
+          </div>
+        </div>
+        <div class="screen-body-item">
+          <div class="app-form">
+            <div class="app-form-group">
+              <input type="text" class="app-form-control" placeholder="Soil particle size in mm" id="size">
+            </div>
+            <div > 
+              <input type="button" name="" value="Show Soil type" class="app-form-button" onclick="calcy()">
+            </div>            
+          </div>
+      </div>
+
+    </div>
+      <div class="app-form-group showdata">
+              <p id="showData" >  </p>
+     </div>
+  </div>
+</div>
+
+<script src="app.js">
+</script>
+
+</body>
+</html>
